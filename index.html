@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+    <head>
+        <!-- Responsive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <!-- Iconos del Navegador - Multiplataforma -->
+        <!-- Dispositivos estandar -->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Metadatos para el buscador -->
+        <meta charset="utf-8" />
+        <title>EconomyApp</title>
+        <meta 
+        name="description" 
+        content="Aplicacion de contabilidad - EconomyApp."/>
+        <meta 
+        name="keywords" 
+        content="contabilidad,aplicacion"/>
+        <meta 
+        name="author" 
+        content="Juan Guillermo Serrano Ramirez" />
+        <meta 
+        name="copyright" 
+        content="Juan Guillermo Serrano Ramirez" />
+        <meta name="robots" content="index,follow"/>
+
+        <!-- Manifest y Estilos -->
+        <link rel="manifest" href="manifest.json" />
+        <meta name="theme-color" content="#F4623A" />
+
+        <!-- Open Graph - Presentacion cuando se comparte mi Pagina Web -->
+        <meta property=”og:type” content="website" />
+        <meta property=”og:title” content="EconomyApp" />
+        <meta property=”og:description” content="Aplicacion de contabilidad - EconomyApp." />
+        <meta property=”og:image” content="assets/favicon.ico" />
+        <meta property=”og:url” content=”permalink” />
+
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- JS EmailJS -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+            emailjs.init("User_ID");
+            })();
+        </script>
+        <!-- Sweet Alert -->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    </head>
+    <body id="page-top">
+        <!-- Barra de navegacion -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">EconomyApp</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#about">Acerca de</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contactanos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Cabecera principal -->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold">EconomyApp es tu sitio web ideal para realizar operaciones de contabilidad sin necesidad de usar Excel</h1>
+                        <hr class="divider" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5">Si lo que deseas es agilizar tu tiempo en realizar operaciones cotidianas de la contabilidad, nuestro sitio web te facilitara el uso de varias herramientas.</p>
+                        <a class="btn btn-primary btn-xl" href="#about">Ver mas informacion</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Acerca de -->
+        <section class="page-section bg-primary" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">¡Nosotros tenemos justo lo que necesitas!</h2>
+                        <hr class="divider divider-light" />
+                        <p class="text-white-75 mb-4">Nuestro sitio web ofrece herramientas como: Generar estados de resultados, generar un estado de situacion financiera de tu empresa, generar un flujo de efectivo y así como obtener el presupuesto de venta, de compra, de gasto del personal y de los gastos administrativos de tu empresa. ¿Que esperas para probarlo?.</p>
+                        <a class="btn btn-light btn-xl" href="#services">¡Pruebalo ahora!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Servicios -->
+        <section class="page-section" id="services">
+            <div class="container mb-5 px-4 px-lg-5">
+                <h2 class="text-center mt-0">General</h2>
+                <hr class="divider" />
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-6 mx-auto text-center">
+                        <a class="btn btn-outline-dar mt-5 service generate-cash-flow-form" href="#toolSection">
+                            <div class="mb-2"><i class="bi-gear fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Flujo de efectivo</h3>
+                            <p class="text-muted mb-0">Genera tu propio flujo de efectivo.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container my-5 px-4 px-lg-5">
+                <h2 class="text-center mt-0">Generar estados de resultado</h2>
+                <hr class="divider" />
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-4 mx-auto col-md-6 text-center generate-statment-of-income-service-form">
+                        <a class="btn btn-outline-dar mt-5 service" href="#toolSection">
+                            <div class="mb-2"><i class="bi-gear fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Servicio</h3>
+                            <p class="text-muted mb-0">Genera tu propio estado de resultado de servicio.</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mx-auto col-md-6 text-center">
+                        <a class="btn btn-outline-dar mt-5 generate-statment-of-income-form service" href="#toolSection">
+                            <div class="mb-2"><i class="bi-shop fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Comercio</h3>
+                            <p class="text-muted mb-0">Genera tu propio estado de resultado de comercio.</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mx-auto col-md-6 text-center">
+                        <a class="btn btn-outline-dar mt-5 generate-statment-of-income-form service" href="#toolSection">
+                            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Manufacturera o industrial</h3>
+                            <p class="text-muted mb-0">Genera tu propio estado de resultado de manufacturera o industrial.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container my-5 px-4 px-lg-5">
+                <h2 class="text-center mt-0">Generar presupuestos</h2>
+                <hr class="divider" />
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 mx-auto col-md-6 text-center">
+                        <a class="btn btn-outline-dar mt-5 generate-sales-budget service" href="#toolSection">
+                            <div class="mb-2"><i class="bi-currency-dollar fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Ventas</h3>
+                            <p class="text-muted mb-0">Genera tu propio presupuesto de ventas.</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 mx-auto col-md-6 text-center">
+                        <a class="btn btn-outline-dar mt-5 generate-buys-budget service" href="#toolSection">
+                            <div class="mb-2"><i class="bi-bag fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Compras</h3>
+                            <p class="text-muted mb-0">Genera tu propio presupuesto de compras.</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 mx-auto col-md-6 text-center">
+                        <a class="btn btn-outline-dar mt-5 generate-personnel-expenses-budget service" href="#toolSection">
+                            <div class="mb-2"><i class="bi-people fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Gastos de personal</h3>
+                            <p class="text-muted mb-0">Genera tu propio presupuesto de gastos de personal.</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 mx-auto col-md-6 text-center">
+                        <a class="btn btn-outline-dar mt-5 generate-administrative-expenses-budget service" href="#toolSection">
+                            <div class="mb-2"><i class="bi-person-badge fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Gastos Administrativos</h3>
+                            <p class="text-muted mb-0">Genera tu propio presupuesto de gastos administrativos.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Seccion principal -->
+        <section class="page-section" id="toolSection">
+            <div class="container mb-5 px-4 px-lg-5">
+                <h2 class="text-center mt-0" id="nameTool"></h2>
+            </div>
+            <hr class="divider" />
+            <div id="tool"></div>
+        </section>
+        <!-- Contactactanos -->
+        <section class="page-section" id="contact">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0">¡Cuantanos de tu experiencia usando la aplicacion!</h2>
+                        <hr class="divider" />
+                        <p class="text-muted mb-5">Es muy importante para nosotros saber tu opinion. Envianos un mensaje informandonos lo que te gusto o lo que te disgusto de la aplicacion, o bien, comentanos de los errores/bugs que se te presento al utilizarlo.</p>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                    <div class="col-lg-6">
+                        <form id="contactUs">
+                            <!-- Input Nombres -->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" name="from_name" id="from_name" type="text" required />
+                                <label for="from_name">Nombre completo</label>
+                            </div>
+                            <!-- Input Corre electronico-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" name="from_email" id="email" type="email" required />
+                                <label for="email">Corre electronico</label>
+                            </div>
+                            <!-- Input Asunto-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="from_subject" name="from_subject" type="text" required />
+                                <label for="from_subject">Asunto</label>
+                            </div>
+                            <!-- Input Mensaje-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" name="message" required type="text" style="height: 10rem"></textarea>
+                                <label for="message">Mensaje</label>
+                            </div>
+                            <!-- Submit Button-->
+                            <div class="d-grid">
+                                <button class="btn btn-primary btn-xl" type="submit">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                        <i class="bi-phone fs-2 mb-3 text-muted"></i>
+                        <div>+573206870875 (Solo Whatsapp/Colombia)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">
+                <p>El aplicativo se encuentra en fase de pruebas</p>
+                <p>Copyright &copy; 2021 - Desarrollado por Juan Serrano</p>
+            </div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- JS Principal -->
+        <!-- Contactanos - Enviar Formulario -->
+        <script src="js/send_email.js"></script>
+        <!-- Generar estados de resultados -->
+        <script src="js/economy/scripts_statement_of_income.js"></script>
+        <!-- Generar flujo de efectivo -->
+        <script src="js/economy/scripts_cash_flow.js"></script>
+        <!-- Generar presupuesto de venta -->
+        <script src="js/economy/budgets/scripts_sales_budget.js"></script>
+        <!-- Generar presupuesto de compra -->
+        <script src="js/economy/budgets/scritps_buys_budget.js"></script>
+        <!-- Generar presupuesto de gastos de personal -->
+        <script src="js/economy/budgets/scripts_personnel_expenses_budget.js"></script>
+        <!-- Generar presupuesto de gastos administrativos -->
+        <script src="js/economy/budgets/scripts_administrative_expenses_budget.js"></script>
+    </body>
+</html>

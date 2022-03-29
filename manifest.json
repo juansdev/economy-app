@@ -1,0 +1,14 @@
+{
+  "name": "EconomyApp",
+  "short_name": "EconomyApp",
+  "lang": "es-CO",
+  "start_url": "/",
+  "background_color": "#FFFFFF",
+  "theme_color": "#F4623A",
+  "description": "Aplicacion de contabilidad - EconomyApp.",
+  "icons": [{
+    "src": "assets/favicon.ico",
+    "sizes": "128X128",
+    "type": "image/vnd.microsoft.icon"
+  }]
+}
